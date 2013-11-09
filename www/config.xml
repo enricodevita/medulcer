@@ -14,6 +14,8 @@
 <preference name="orientation" value="portrait" />
 <preference name="fullscreen" value="true" />
 
+    <preference name="loglevel" value="DEBUG" />
+
     <access origin="*"/>
     <access origin="http://192.168.2.18*"/>
     <access origin="http://medulcer.01rabbit.it*"/>
@@ -21,7 +23,9 @@
     <content src="http://medulcer.01rabbit.it/mobile/index.jsf" /> 
     <!--<content src="index.html" />-->
 
-    <preference name="loglevel" value="DEBUG" />
+<gap:platform name="ios" />
+<gap:platform name="android" />
+
     <!--
       <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
@@ -40,7 +44,7 @@
     <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-
+<!--
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
@@ -48,7 +52,8 @@
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait-2x.png"   gap:platform="ios"     width="1536" height="2008" />
-    
+    -->
+	
 
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
