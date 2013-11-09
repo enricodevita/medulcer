@@ -32,6 +32,7 @@
     -->
 	
 <icon src="icon.png" />
+<preference name="splashscreen" value="splash.png" />
 <!--
 
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
