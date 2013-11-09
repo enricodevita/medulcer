@@ -30,6 +30,9 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
+<!--to test-->
+<preference name="exit-on-suspend"	value="true" />
+<!--to test-->
 	
 <icon src="icon.png" />
 <preference name="splashscreen" value="splash.png" />
