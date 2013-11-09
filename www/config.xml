@@ -7,12 +7,12 @@
         Medulcer App
     </description>
     <author href="http://www.01rabbit.it" email="info@01rabbit.it">
-        =1Rabbit di De Vita Enrico
+        01Rabbit di De Vita Enrico
     </author>
 
-<preference name="phonegap-version" value="2.9.0" />
-<preference name="orientation" value="portrait" />
-<preference name="fullscreen" value="true" />
+	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
 
     <preference name="loglevel" value="DEBUG" />
 
@@ -33,8 +33,9 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-	<icon src="icon.png" />
+	
 <!--
+<icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
