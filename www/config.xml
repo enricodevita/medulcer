@@ -22,10 +22,10 @@
 
     <content src="http://medulcer.01rabbit.it/mobile/index.jsf" /> 
     <!--<content src="index.html" />-->
-
-<gap:platform name="ios" />
-<gap:platform name="android" />
-
+<!--
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+-->
     <!--
       <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
@@ -34,18 +34,18 @@
       <preference name="disallowOverscroll" value="true" />
     -->
 	
-<!--
+
 <icon src="icon.png" />
-    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+<!--    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
-    -->
     <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
     <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
     <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-<!--
+-->
+    <!--
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
