@@ -40,7 +40,18 @@
       
 
 <gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="org.apache.cordova.media-capture" />
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.file" />
+<gap:plugin name="org.apache.cordova.file-transfer" />
+<gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="org.apache.cordova.audiohandler" />
+<gap:plugin name="org.apache.cordova.network-information" />
+<gap:plugin name="org.apache.cordova.dialogs" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
+<gap:plugin name="org.apache.cordova.vibration" />
 
+<!--
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
@@ -98,7 +109,10 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
+-->
     <!-- Deprecated plugins element. Remove in 3.0 -->
-    <plugins>
+<!--    <plugins>
     </plugins>
+-->
+
 </widget>
