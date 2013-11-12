@@ -34,8 +34,8 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-<!--to test
-<preference name="exit-on-suspend"	value="true" />-->
+<!--to test -->
+<preference name="exit-on-suspend"	value="true" />
 <!--to test-->
 	
 <icon src="icon.png" />	
@@ -54,6 +54,41 @@
 <!--
 <gap:plugin name="org.apache.cordova.audiohandler" />
 -->
+	<feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+
+<!--
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
@@ -62,9 +97,6 @@
     </feature>
     <feature name="Media">
       <param name="android-package" value="org.apache.cordova.AudioHandler"/>
-    </feature>
-    <feature name="Camera">
-      <param name="android-package" value="org.apache.cordova.CameraLauncher"/>
     </feature>
     <feature name="File">
       <param name="android-package" value="org.apache.cordova.FileUtils"/>
@@ -111,6 +143,12 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
+-->
+
+<feature name="Camera">
+    <param name="ios-package" value="CDVCamera" />
+</feature>
+
     <!-- Deprecated plugins element. Remove in 3.0 -->
 <!--    <plugins>
     </plugins>
