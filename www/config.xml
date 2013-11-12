@@ -34,8 +34,9 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-<!--to test -->
+<!--to test 
 <preference name="exit-on-suspend"	value="true" />
+-->
 <!--to test-->
 	
 <icon src="icon.png" />	
@@ -143,12 +144,12 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
--->
+
 
 <feature name="Camera">
     <param name="ios-package" value="CDVCamera" />
 </feature>
-
+-->
     <!-- Deprecated plugins element. Remove in 3.0 -->
 <!--    <plugins>
     </plugins>
