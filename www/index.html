@@ -14,11 +14,14 @@
 
         <script type="text/javascript" charset="utf-8">
     document.addEventListener("deviceready",onDeviceReady,false);
+	$(".container").hide();
     function onDeviceReady() {
 		var networkState = navigator.connection.type;
 		if(networkState === 'none'){
 			navigator.notification.alert('non sei connesso!', alertDismissed,'Nessuna Connessione','ok');			
+			$(".container").show();
 		}else{
+			$(".container").hide();
             var ref = window.open(encodeURI('http://medulcer.01rabbit.it/mobile/index.jsf'), '_self','location=no');
 		}
     }
