@@ -23,8 +23,8 @@
     <access origin="*"/>
     <access origin="http://medulcer.01rabbit.it*"/>
 
-    <content src="http://medulcer.01rabbit.it/mobile/index.jsf" />
-<!--    <content src="index.html" /> -->
+<!--    <content src="http://medulcer.01rabbit.it/mobile/index.jsf" /> -->
+    <content src="index.html" />
 
 	<preference name="SplashScreenDelay" value="4000"/>
     <!--
