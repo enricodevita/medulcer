@@ -4,9 +4,9 @@
         id        = "it.zerounorabbit.medulcer"
         versionCode="2" 
         version   = "1.0.0">
-    <name>Medulcer</name>
+    <name>Woumed</name>
     <description>
-        Medulcer App
+        Woumed App
     </description>
     <author href="http://www.01rabbit.it" email="info@01rabbit.it">
         01Rabbit di De Vita Enrico
@@ -21,7 +21,7 @@
     <preference name="loglevel" value="DEBUG" />
 
     <access origin="*"/>
-    <access origin="http://medulcer.01rabbit.it*"/>
+    <access origin="http://www.woumed.it*"/>
 
 <!--    <content src="http://medulcer.01rabbit.it/mobile/index.jsf" /> -->
     <content src="index.html" />
