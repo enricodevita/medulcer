@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "it.zerounorabbit.woumed"
         versionCode="2" 
-        version   = "1.0.0">
+        version   = "1.0.1">
     <name>Woumed</name>
     <description>
         Woumed App
@@ -45,6 +45,13 @@
 <!-- iPad -->
 <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
 <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+<!-- iPhone / iPod Touch  -->
+<icon src="res/icon/ios/icon-60.png" gap:platform="ios" width="60" height="60" />
+<icon src="res/icon/ios/icon-60-2x.png" gap:platform="ios" width="120" height="120" />
+<!-- iPad -->
+<icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
+<icon src="res/icon/ios/icon-76-2x.png" gap:platform="ios" width="152" height="152" />
+
 
 
 <gap:splash src="splash.png" />
